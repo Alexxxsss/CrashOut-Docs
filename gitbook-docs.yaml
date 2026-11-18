@@ -3,16 +3,10 @@ site:
   title: CrashOut Documentation
   structure:
     - type: space
-      key: crashout-docs
-      title: CrashOut Documentation
-      path: undefined
-      default: true
-      content:
-        directory: ./
-    - type: space
       key: space-1
       title: CrashOutIndex
       path: landing-page
+      default: true
       draft: true
       content:
         directory: ./landing-page
