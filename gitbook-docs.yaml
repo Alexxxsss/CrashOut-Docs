@@ -7,6 +7,5 @@ site:
       title: CrashOutIndex
       path: landing-page
       default: true
-      draft: true
       content:
         directory: ./landing-page
