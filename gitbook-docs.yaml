@@ -1,0 +1,11 @@
+$schema: https://api.gitbook.com/gitbook-docs.yaml
+site:
+  title: CrashOut Documentation
+  structure:
+    - type: space
+      key: crashout-docs
+      default: true
+      title: CrashOut Documentation
+      path: /
+      content:
+        directory: ./
