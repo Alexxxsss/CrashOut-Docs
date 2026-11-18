@@ -4,8 +4,8 @@ site:
   structure:
     - type: space
       key: crashout-docs
-      default: true
       title: CrashOut Documentation
-      path: /
+      path: undefined
+      default: true
       content:
         directory: ./
