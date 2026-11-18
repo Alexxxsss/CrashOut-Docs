@@ -4,24 +4,28 @@
 
 ## Getting Started
 
-* [Getting started](getting-started/getting-started.md)
-* [Quickstart](getting-started/quickstart.md)
-* [Your first project](getting-started/your-first-project.md)
+* [Setup](getting-started/setup.md)
+* [Basics](getting-started/basics.md)
+* [First line of code](getting-started/first-line-of-code.md)
 
-## Core concepts
+## Structure
 
-* [Core concepts](core-concepts/core-concepts.md)
-* [Workspaces and projects](core-concepts/workspaces-and-projects.md)
-* [Permissions](core-concepts/permissions.md)
+* [File Structure](structure/file-structure.md)
+* [Engine Flow](structure/engine-flow.md)
+* [Entity Component System (ECS)](structure/entity-component-system-ecs.md)
 
-## Guides
+## Functions/Methods
 
-* [Guides](guides/guides.md)
-* [Custom domains](guides/custom-domains.md)
-* [Automations](guides/automations.md)
+* [Built in called Functions](functions-methods/built-in-called-functions.md)
+* [Physics](functions-methods/physics.md)
+* [Math](functions-methods/math.md)
 
-## Reference
+## Systems
 
-* [Reference](reference/reference.md)
-* [Configuration](reference/configuration.md)
-* [Glossary](reference/glossary.md)
+* [Gizmos](systems/gizmos.md)
+* [ECS](systems/ecs.md)
+* [Physics System](systems/physics-system.md)
+
+## Engine Source
+
+* [Rendering](engine-source/rendering.md)

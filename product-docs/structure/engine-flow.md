@@ -3,7 +3,7 @@ description: How workspaces and projects fit together, and when to create which.
 icon: sitemap
 ---
 
-# Workspaces and projects
+# Engine Flow
 
 Workspaces and projects are the two containers that organise everything on the platform. Understanding the relationship between them makes the rest of the product much easier to navigate.
 
@@ -82,10 +82,10 @@ Use **one project with multiple environments** when:
 
 ## Related
 
-{% content-ref url="permissions.md" %}
-[permissions.md](permissions.md)
+{% content-ref url="entity-component-system-ecs.md" %}
+[entity-component-system-ecs.md](entity-component-system-ecs.md)
 {% endcontent-ref %}
 
-{% content-ref url="../reference/configuration.md" %}
-[configuration.md](../reference/configuration.md)
+{% content-ref url="/broken/pages/65332f63d0b6cedd6ac718136ba8d89ec6cc1a4d" %}
+[Broken link](/broken/pages/65332f63d0b6cedd6ac718136ba8d89ec6cc1a4d)
 {% endcontent-ref %}

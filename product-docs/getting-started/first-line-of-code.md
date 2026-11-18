@@ -5,9 +5,9 @@ description: >-
 icon: compass
 ---
 
-# Your first project
+# First line of code
 
-This walkthrough goes deeper than the [Quickstart](quickstart.md). By the end, you'll have a real project with environment variables, a custom build, and a preview deployment workflow.
+This walkthrough goes deeper than the [Quickstart](basics.md). By the end, you'll have a real project with environment variables, a custom build, and a preview deployment workflow.
 
 {% hint style="info" %}
 We'll use a generic web project for this tutorial. The same pattern works for static sites, APIs, and worker services.
@@ -125,7 +125,7 @@ Push to your main branch (or click **Deploy** manually). The platform will:
 5. Promote to your live URL
 
 {% hint style="success" %}
-You'll get a notification when the build completes — by email, Slack, or whatever you configured under [automations.md](../guides/automations.md "mention").
+You'll get a notification when the build completes — by email, Slack, or whatever you configured under [math.md](../functions-methods/math.md "mention").
 {% endhint %}
 
 ## Sample project
@@ -138,14 +138,14 @@ If you'd like to skip ahead and see a fully configured project, download our sam
 
 Now that you have a working project, you can check out:
 
-{% content-ref url="../guides/custom-domains.md" %}
-[custom-domains.md](../guides/custom-domains.md)
+{% content-ref url="../functions-methods/physics.md" %}
+[physics.md](../functions-methods/physics.md)
 {% endcontent-ref %}
 
-{% content-ref url="../guides/automations.md" %}
-[automations.md](../guides/automations.md)
+{% content-ref url="../functions-methods/math.md" %}
+[math.md](../functions-methods/math.md)
 {% endcontent-ref %}
 
-{% content-ref url="../core-concepts/permissions.md" %}
-[permissions.md](../core-concepts/permissions.md)
+{% content-ref url="../structure/entity-component-system-ecs.md" %}
+[entity-component-system-ecs.md](../structure/entity-component-system-ecs.md)
 {% endcontent-ref %}

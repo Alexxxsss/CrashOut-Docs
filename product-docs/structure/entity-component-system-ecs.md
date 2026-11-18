@@ -1,9 +1,9 @@
 ---
 description: Roles, permissions, and how access flows from workspace to project.
-icon: lock
+icon: cube
 ---
 
-# Permissions
+# Entity Component System (ECS)
 
 Every member of a workspace has a role. The role determines what actions they can perform across the workspace and its projects.
 

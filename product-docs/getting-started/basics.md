@@ -3,7 +3,7 @@ description: Go from sign-up to your first deploy in under five minutes.
 icon: bolt
 ---
 
-# Quickstart
+# Basics
 
 This quickstart gets you to your first deploy as fast as possible. We'll skip most of the configuration — you can refine things later once you have something running.
 
@@ -76,14 +76,14 @@ First builds typically take 1–3 minutes. Subsequent builds are faster because 
 
 You've shipped something — now make it yours.
 
-{% content-ref url="../guides/custom-domains.md" %}
-[custom-domains.md](../guides/custom-domains.md)
+{% content-ref url="../functions-methods/physics.md" %}
+[physics.md](../functions-methods/physics.md)
 {% endcontent-ref %}
 
-{% content-ref url="../core-concepts/permissions.md" %}
-[permissions.md](../core-concepts/permissions.md)
+{% content-ref url="../structure/entity-component-system-ecs.md" %}
+[entity-component-system-ecs.md](../structure/entity-component-system-ecs.md)
 {% endcontent-ref %}
 
-{% content-ref url="../guides/automations.md" %}
-[automations.md](../guides/automations.md)
+{% content-ref url="../functions-methods/math.md" %}
+[math.md](../functions-methods/math.md)
 {% endcontent-ref %}

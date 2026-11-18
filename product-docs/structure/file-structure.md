@@ -1,9 +1,9 @@
 ---
 description: Understand workspaces, projects, and how permissions work across the platform.
-icon: book
+icon: files
 ---
 
-# Core concepts
+# File Structure
 
 A few key concepts shape how everything on the platform fits together. You don't need to memorise these — but skimming them now will save you confusion later.
 
