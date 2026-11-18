@@ -7,10 +7,29 @@ site:
       title: Documentation
       draft: true
       children: []
-    - type: space
-      key: space-1
-      title: CrashOutIndex
-      path: landing-page
+    - type: section
+      key: section-1
+      title: CrashOut Documentation
+      path: crashout-documentation
       default: true
-      content:
-        directory: ./landing-page
+      children:
+        - type: space
+          key: space-1
+          title: CrashOutIndex
+          path: landing-page
+          default: true
+          content:
+            directory: ./landing-page
+    - type: section
+      key: section-2
+      title: Product Docs
+      path: product-docs
+      children:
+        - type: space
+          key: space-2
+          title: Product Docs
+          path: product-docs
+          default: true
+          draft: true
+          content:
+            directory: ./product-docs
