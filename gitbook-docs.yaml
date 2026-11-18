@@ -8,22 +8,10 @@ site:
       draft: true
       children: []
     - type: section
-      key: section-1
-      title: CrashOut Documentation
-      path: crashout-documentation
-      default: true
-      children:
-        - type: space
-          key: space-1
-          title: CrashOutIndex
-          path: landing-page
-          default: true
-          content:
-            directory: ./landing-page
-    - type: section
       key: section-2
       title: Product Docs
       path: product-docs
+      default: true
       children:
         - type: space
           key: space-2
