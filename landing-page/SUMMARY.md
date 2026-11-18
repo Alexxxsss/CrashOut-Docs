@@ -1,3 +1,3 @@
 # Table of contents
 
-* [CrashOut-Docs](README.md)
+* [Developer Platform](README.md)
