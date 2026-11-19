@@ -1,24 +1,35 @@
 ---
+description: A efficient system that has enteties, components and functionality
 icon: cube
 ---
 
 # ECS
 
-Practical walkthroughs for getting things done. Each guide is self-contained — pick the one that matches what you're trying to do.
-
-<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><h4><i class="fa-globe" style="color:$primary;">:globe:</i></h4></td><td><strong>Custom domains</strong></td><td>Point your own domain at a project, with automatic SSL.</td><td><a href="../functions-methods/physics.md">physics.md</a></td></tr><tr><td><h4><i class="fa-gear" style="color:$primary;">:gear:</i></h4></td><td><strong>Automations</strong></td><td>React to deploys, comments, or external events with workflows.</td><td><a href="../functions-methods/math.md">math.md</a></td></tr></tbody></table>
-
 ***
 
-## More guides coming soon
+The system is designed to support a large number of objects without duplicating functionality code. The components are simply data stored inside structs that are attached to the entities, which are just IDs, and the functionality then processes and executes this data. To maximize efficiency, the functionality processes all objects with a given component simultaneously.
 
-We're adding new guides based on what people actually ask about. Some that are in the pipeline:
+<pre class="language-cpp"><code class="lang-cpp">///  Variables for entity, model and material
+Entity entity1;
+std::shared_ptr&#x3C;Model> cubeModel;
+std::shared_ptr&#x3C;Material> brickMaterial;
 
-* Importing data from another platform
-* Setting up SSO with your identity provider
-* Building a custom CI/CD pipeline on top of the API
-* Configuring per-environment secrets
+///  Initialize .obj model and .png texture
+cubeModel = std::make_shared&#x3C;Model>();
+cubeModel->Init(&#x26;GetRenderer());
+cubeModel->Create("Cube.obj");
 
-{% hint style="info" %}
-Have a guide you'd like to see? [Suggest one in the community](https://gitbook.com).
-{% endhint %}
+brickMaterial = std::make_shared&#x3C;Material>();
+brickMaterial->Init(&#x26;GetRenderer());
+brickMaterial->LoadTexture(L"Brick.png");
+
+<strong>
+</strong><strong>///  Initializing the Entity
+</strong><strong>///  Adding the componments to the Entity
+</strong><strong>entity2 = myRegistry.CreateEntity();
+</strong>myRegistry.AddComponent&#x3C;TransformComponent>(entity2);
+myRegistry.AddComponent&#x3C;MeshComponent>(entity2, cubeModel);
+myRegistry.AddComponent&#x3C;MaterialComponent>(entity2, brickMaterial);
+myRegistry.AddComponent&#x3C;BoxColliderComponent>(entity2);
+
+</code></pre>

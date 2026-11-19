@@ -3,12 +3,9 @@ description: >-
   React to deploys, comments, and external events with workflows that run on the
   platform.
 icon: gear
-tags:
-  - tag: beta
-    primary: true
 ---
 
-# Automations
+# Math
 
 Automations let you run code in response to things that happen on the platform — a deploy completing, a comment being posted, or an external webhook firing. They're a flexible way to wire the platform into the rest of your toolchain.
 
